@@ -26,7 +26,7 @@ public class WebVieww extends AppCompatActivity {
         webView.getSettings().setLoadsImagesAutomatically(true);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
-        webView.loadUrl("https://www.wikipedia.org");
+        webView.loadUrl("https://smartmuseum-5a139.firebaseapp.com/");
 
 
     }
