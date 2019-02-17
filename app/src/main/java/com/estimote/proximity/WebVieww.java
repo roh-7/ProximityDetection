@@ -22,11 +22,11 @@ public class WebVieww extends AppCompatActivity {
         webView.setWebViewClient(new MyBrowser());
 
 
-        String url = "WIKIPEDIA.COM";
+
         webView.getSettings().setLoadsImagesAutomatically(true);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
-        webView.loadUrl(url);
+        webView.loadUrl("https://www.wikipedia.org");
 
 
     }

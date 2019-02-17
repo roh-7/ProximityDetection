@@ -70,8 +70,8 @@ public class ProximityContentManager {
                             nearbyContent.add(new ProximityContent(title, subtitle));
 
                             Toast.makeText(context,"New Beacon",Toast.LENGTH_SHORT).show();
-                            //Intent i = new Intent(context, WebVieww.class);
-                            //context.startActivity(i);
+                           Intent i = new Intent(context, WebVieww.class);
+                            context.startActivity(i);
 
                         }
 
